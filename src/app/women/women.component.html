@@ -1,0 +1,53 @@
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="https://assets.ajio.com/cms/AJIO/WEB/24092022-WHP-D-72hrscarousel-p2-biba-globaldesi-min55.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://assets.ajio.com/cms/AJIO/WEB/24092022-WHP-D-topbanner-p2-fashor-ishin-min50-extra35.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://assets.ajio.com/cms/AJIO/WEB/24092022-WHP-D-topbanner-p5-allensolly-min40.jpg" class="d-block w-100">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<hr>
+<div class="row row-cols-4 justify-content-evenly">
+    <div *ngFor="let prod of products" style="margin:20px;">
+    <div class="card text-white bg-dark m-3"  *ngIf="prod.gender==='WOMEN'">
+      <img [src]="prod.img" class="prodimg">
+      <div class="card-body">
+        <h5 class="card-title">{{prod.pname | uppercase}}</h5>
+        <div>
+        <span (click)="showproductDetailsToggle()" [ngClass]="toggleContent()"></span>
+        <div class="card-text" [hidden]="productDetail">
+          Description: {{prod.pdescription}}
+          <br>
+          Price: {{prod.price | currency:'INR'}}
+          <br>
+          <br><input type="number" name="quantity" [(ngModel)]="quantity" style="width:50px;border-radius:10px;" min="1" max="25">
+          Quantity: 
+          <br>
+          <button class="btn btn-success m-3" (click)="addToCart(prod)" style="width:150px;border-radius:10px;">Add to Cart</button>
+        </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>

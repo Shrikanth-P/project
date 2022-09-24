@@ -1,0 +1,276 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "pname": "DENNISLINGO PREMIUM ATTIRE",
+      "pdescription": "Heathered Slim Fit Shirt with Welt Pockets",
+      "gender": "MEN",
+      "size": "S,XL,XXL",
+      "price": "500",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20211230/SpFv/61ccb514aeb2690110230cae/netplay_blue_heathered_slim_fit_shirt_with_welt_pockets.jpg"
+    },
+    {
+      "id": 2,
+      "pname": "DENNISLINGO PREMIUM ATTIRE",
+      "pdescription": "Denim Slim Fit Shirt with Flap Pockets",
+      "gender": "MEN",
+      "size": "S,L",
+      "price": "900",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20210403/dKML/6068678df997dd7b645d967d/-473Wx593H-461117395-blue-MODEL.jpg"
+    },
+    {
+      "id": 3,
+      "pname": "MANKSH Kurta",
+      "pdescription": "Floral Print Flared Kurta",
+      "gender": "WOMEN",
+      "size": "S,M",
+      "price": "900",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20210611/ogdq/60c27b70f997ddb312c5ad19/manksh_green_floral_print_flared_kurta.jpg"
+    },
+    {
+      "id": 4,
+      "pname": "GULMOHAR JAIPUR Kurta",
+      "pdescription": "Floral Print Flared Kurta",
+      "gender": "WOMEN",
+      "size": "S,M,L",
+      "price": "1000",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20220322/zZrx/6239e35bf997dd03e22576a3/gulmohar_jaipur_navy_blue_floral_print_flared_kurta.jpg"
+    },
+    {
+      "id": 5,
+      "pname": "INDIBELLE Kurta",
+      "pdescription": "Block Print A-line Kurta with Insert Pockets",
+      "gender": "WOMEN",
+      "size": "S,M",
+      "price": "500",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20210403/PpQW/60686848f997dd7b645da5b4/indibelle_grey_block_print_a-line_kurta_with_insert_pockets.jpg"
+    },
+    {
+      "id": 6,
+      "pname": "FIG",
+      "pdescription": "FIG Floral Print Shirt Dress with Waist Tie-Up",
+      "gender": "WOMEN",
+      "size": "S,M,L",
+      "price": "400",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20220302/K8b0/621e72eaaeb26921afbf94c5/fig_peach_floral_print_shirt_dress_with_waist_tie-up.jpg"
+    },
+    {
+      "id": 7,
+      "pname": "YB DNMX",
+      "pdescription": "Lightly Washed Slim Fit Jeans",
+      "gender": "KIDS",
+      "size": "8-9y",
+      "price": "450",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20211217/qJGy/61bcb7d4f997ddf8f155aafe/-473Wx593H-441123376-darkblue-MODEL.jpg"
+    },
+    {
+      "id": 8,
+      "pname": "612 LEAGUE",
+      "pdescription": "Lightly Washed Denim Shirt",
+      "gender": "KIDS",
+      "size": "3-4y,5-6y",
+      "price": "600",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20220906/BXNB/63175bdaaeb269dbb3747810/612_league_blue_lightly_washed_denim_shirt.jpg"
+    },
+    {
+      "id": 9,
+      "pname": " POINT COVE ",
+      "pdescription": "Checked Shirt with Patch Pocket",
+      "gender": "KIDS",
+      "size": "3-4y,5-6y",
+      "price": "300",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20211112/4OO9/618e8db6f997ddf8f1038d63/point_cove_navy_blue_checked_shirt_with_patch_pocket.jpg"
+    },
+    {
+      "id": 10,
+      "pname": "Allen Solly  ",
+      "pdescription": "Solid Men Polo Neck White T-Shirt",
+      "gender": "MEN",
+      "size": "M,L,XL",
+      "price": "600",
+      "img": "https://rukminim1.flixcart.com/image/579/695/l4vnbm80/t-shirt/c/e/q/m-askporgfp82490-new-allen-solly-original-imagfzk7h3zccp4k.jpeg?q=50"
+    },
+    {
+      "id": 11,
+      "pname": "PETER ENGLAND ",
+      "pdescription": "Men Slim Fit Printed Spread Collar Formal Shirt",
+      "gender": "MEN",
+      "size": "M,L,XL",
+      "price": "600",
+      "img": "https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/4/d/x/40-pesfoslp413943-peter-england-original-imaghyhm2qqr7kk9.jpeg?q=70"
+    },
+    {
+      "id": 12,
+      "pname": "Roadster  ",
+      "pdescription": "Striped Men Polo Neck Dark Blue T-Shirt",
+      "gender": "MEN",
+      "size": "M,L",
+      "price": "399",
+      "img": "https://rukminim1.flixcart.com/image/579/695/k66sh3k0/t-shirt/t/4/s/l-10307375-roadster-original-imafzhfjksbg4ufc.jpeg?q=50"
+    },
+    {
+      "id": 13,
+      "pname": "JACK & JONES  ",
+      "pdescription": "Full Sleeve Printed Men Sweatshirt",
+      "gender": "MEN",
+      "size": "S,L,XL",
+      "price": "599",
+      "img": "https://rukminim1.flixcart.com/image/579/695/ktyp8cw0/sweatshirt/6/m/c/s-265189502-jack-jones-original-imag76yyekzppypa.jpeg?q=50"
+    },
+    {
+      "id": 14,
+      "pname": "Raymond  ",
+      "pdescription": "Slim Fit Men Grey Viscose Rayon Trousers",
+      "gender": "MEN",
+      "size": "36",
+      "price": "699",
+      "img": "https://rukminim1.flixcart.com/image/579/695/l4bn5ow0/trouser/u/n/g/-original-imagf8rvcugqybwy.jpeg?q=50"
+    },
+    {
+      "id": 15,
+      "pname": "Wrangler  ",
+      "pdescription": "Skinny Men Dark Blue Jeans",
+      "gender": "MEN",
+      "size": "38",
+      "price": "859",
+      "img": "https://rukminim1.flixcart.com/image/579/695/xif0q/jean/i/z/z/32-wmjnsm4406-wrangler-original-imaghydnuvvrzgrn.jpeg?q=50"
+    },
+    {
+      "id": 16,
+      "pname": "DENNISLINGO PREMIUM ATTIRE",
+      "pdescription": " Slim Fit Shirt with Patch Pocket",
+      "gender": "MEN",
+      "size": "S,L,XXL",
+      "price": "1200",
+      "img": "https://assets.ajio.com/medias/sys_master/root/h0c/h8e/15741058023454/-473Wx593H-461117379-blue-MODEL.jpg"
+    },
+    {
+      "id": 17,
+      "pname": "DNMX",
+      "pdescription": " Mid-Rise Skinny Fit Jeans",
+      "gender": "MEN",
+      "size": "36,38",
+      "price": "799",
+      "img": "https://assets.ajio.com/medias/sys_master/root/hf6/h40/15636702625822/-473Wx593H-441038485-black-MODEL.jpg"
+    },
+    {
+      "id": 18,
+      "pname": "JOHN PLAYERS JEANS",
+      "pdescription": " Mid-Wash Slim Fit Jeans",
+      "gender": "MEN",
+      "size": "32,34,36,40",
+      "price": "900",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20220905/vqeC/63162580aeb269dbb36ca25e/-473Wx593H-441146569-ltblue-MODEL.jpg"
+    },
+    {
+      "id": 19,
+      "pname": "U.S. POLO ASSN. ",
+      "pdescription": "Washed Slim Fit Shirt with Flap Pockets",
+      "gender": "MEN",
+      "size": "S,M,L,XL",
+      "price": "1399",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20220715/MvuR/62d17dbaf997dd03e2d726bd/-473Wx593H-469191750-charcoal-MODEL.jpg"
+    },
+    {
+      "id": 20,
+      "pname": "TRENDYOL ",
+      "pdescription": "Cotton Shirt with Roll-Tab Sleeves",
+      "gender": "MEN",
+      "size": "L,XL",
+      "price": "599",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20210403/AcbB/6068b6caf997dd7b64643def/dennislingo_premium_attire_green_striped_slim_fit_shirt.jpg"
+    },
+    {
+      "id": 21,
+      "pname": "Raymond  Men",
+      "pdescription": " Slim Fit Printed Formal Shirt",
+      "gender": "MEN",
+      "size": "S,XL",
+      "price": "700",
+      "img": "https://rukminim1.flixcart.com/image/832/832/l4bn5ow0/shirt/e/i/y/-original-imagf8rwyvju5ch3.jpeg?q=70"
+    }
+  ],
+  "cart": [
+    {
+      "pid": 3,
+      "pname": "U.S. POLO ASSN.",
+      "pdescription": "Straight Fit Mid-Rise Jeans",
+      "price": "1290",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20220630/lOsB/62bc9aacaeb26921af520ce0/u.s._polo_assn._blue_straight_fit_mid-rise_jeans.jpg",
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "pid": 4,
+      "pname": "DENNISLINGO PREMIUM ATTIRE",
+      "pdescription": "Denim Slim Fit Shirt with Flap Pockets",
+      "price": "900",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20210403/dKML/6068678df997dd7b645d967d/-473Wx593H-461117395-blue-MODEL.jpg",
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "pid": 12,
+      "pname": " POINT COVE ",
+      "pdescription": "Checked Shirt with Patch Pocket",
+      "price": "300",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20211112/4OO9/618e8db6f997ddf8f1038d63/point_cove_navy_blue_checked_shirt_with_patch_pocket.jpg",
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "pid": 15,
+      "pname": "Allen Solly  ",
+      "pdescription": "Solid Men Polo Neck White T-Shirt",
+      "price": "600",
+      "img": "https://rukminim1.flixcart.com/image/579/695/l4vnbm80/t-shirt/c/e/q/m-askporgfp82490-new-allen-solly-original-imagfzk7h3zccp4k.jpeg?q=50",
+      "quantity": 1,
+      "id": 5
+    },
+    {
+      "pid": 14,
+      "pname": "Raymond  Men",
+      "pdescription": " Slim Fit Printed Formal Shirt",
+      "price": "700",
+      "img": "https://rukminim1.flixcart.com/image/832/832/l4bn5ow0/shirt/e/i/y/-original-imagf8rwyvju5ch3.jpeg?q=70",
+      "quantity": 1,
+      "id": 6
+    },
+    {
+      "pid": 1,
+      "pname": "U.S. POLO ASSN.",
+      "pdescription": "Straight Fit Mid-Rise Jeans",
+      "price": "1290",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20220630/lOsB/62bc9aacaeb26921af520ce0/u.s._polo_assn._blue_straight_fit_mid-rise_jeans.jpg",
+      "quantity": 1,
+      "id": 7
+    },
+    {
+      "pid": 3,
+      "pname": "DENNISLINGO PREMIUM ATTIRE",
+      "pdescription": "Heathered Slim Fit Shirt with Welt Pockets",
+      "price": "500",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20211230/SpFv/61ccb514aeb2690110230cae/netplay_blue_heathered_slim_fit_shirt_with_welt_pockets.jpg",
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "pid": 3,
+      "pname": "MANKSH Kurta",
+      "pdescription": "Floral Print Flared Kurta",
+      "price": "900",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20210611/ogdq/60c27b70f997ddb312c5ad19/manksh_green_floral_print_flared_kurta.jpg",
+      "quantity": 1,
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "username": "shrikanth p",
+      "useremail": "shrikanthchoudary05@gmail.com",
+      "password": "Shri@123",
+      "mobile": "8884643793",
+      "id": 1
+    }
+  ]
+}

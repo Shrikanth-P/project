@@ -1,0 +1,74 @@
+<section class="text-center" style="width: 100%;">
+    <div class="p-5 bg-image" style="
+          background-image: url('https://mdbootstrap.com/img/new/textures/full/171.jpg');
+          height: 300px;">
+    </div>
+   
+  <div style="margin-left: 30%;">
+    <div class="card mx-4 mx-md-5 shadow-5-strong justify-content-center" style="
+          margin-top: -200px;
+          background: hsla(0, 100%, 100%, 0.8);
+          backdrop-filter: blur(30px);
+          width: 50%;">
+      <div class="card-body py-5 px-md-5 justify-content-center" style="align-items: center;">
+  
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="fw-bold mb-5">Register Here</h2>
+           
+            <div class="login-form">
+                <form class="mt-5" [formGroup]="registerForm" (ngSubmit)="submitHandler()">
+                    <div class="form-group">
+                        <div style="text-align:left ; font-family: serif;" class="mb-2">User Name</div>
+                        <input type="text" class="form-control" name="username" formControlName="username"
+                            placeholder="Enter Username">
+                        <label class="error ng-binding" *ngIf="submitted && f['username'].invalid">Name is required
+                        </label>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div style="text-align:left ; font-family: serif;" class="mb-2">Email Address</div>
+                        <input type="email" id="form3Example1" class="form-control" name="useremail" formControlName="useremail"
+                            placeholder="Enter email">
+                        <label class="error ng-binding" *ngIf="submitted && f['useremail'].invalid">Email is required
+                            </label>
+                        <label class="error ng-binding" *ngIf="submitted && f['useremail'].errors?.['useremail']">Email must
+                            be a valid email address</label>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div style="text-align:left ; font-family: serif;" class="mb-2" >Password</div>
+                        <input type="password" class="form-control" name="password" formControlName="password"
+                            placeholder="Enter password">
+                        <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['password']">Password is
+                            required</label>
+                        <label class="error ng-binding" *ngIf="submitted && f['password'].errors?.['minlength']">Password
+                            must be at least 6 characters</label>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <div style="text-align:left ; font-family: serif;" class="mb-2">Phone Number</div>
+                        <input type="text" class="form-control" name="mobile" formControlName="mobile"
+                            placeholder="Enter Mobile number">
+                        <label class="error ng-binding" *ngIf="submitted && f['mobile'].errors?.['required']">Mobile number
+                            is required</label>
+    
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-warning">Sign up</button>
+                    <div class="text-center ms-mt-x ms-mb-m register-already-account" style="padding-top:30px">
+                        <span class="ms-fs-12 ng-binding">Already have an account?
+                            <a class="secondary ng-binding" href="login">
+                                Login!
+                            </a>
+                        </span>
+                    </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  </section>
+ 

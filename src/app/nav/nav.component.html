@@ -1,0 +1,48 @@
+<nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" width="70px" height="40px" alt="AJIO"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active  mt-2" aria-current="page" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  mt-2" routerLink="Men" *ngIf="auth">MEN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  mt-2" routerLink="Women" *ngIf="auth">WOMEN</a>
+        </li>
+        <li class="nav-item  mt-2">
+          <a class="nav-link" routerLink="kids" *ngIf="auth">KIDS</a>
+        </li>
+        <li class="nav-item  mt-2">
+          <a class="nav-link" routerLink="Addproducts" *ngIf="auth">ADD PRODUCTS</a>
+        </li>
+
+        <li class="nav-item  mt-2">
+          <div class="input-group mb-3 d-flex">
+              <input type="text" class="form-control" placeholder="search" [(ngModel)]='value'>
+              <button class="btn btn-light" (click)="onClick(value)"><img src="https://img.icons8.com/material-outlined/344/search--v1.png" width="20px" height="20px" alt="search"/></button>
+            </div>
+           </li>  
+
+          <li class="nav-item mt-2">
+            <a class="nav-link" routerLink="cartitem" *ngIf="auth"><img src="./assets/bag.png" alt="cart" width="20px" height="23px"/></a>
+          </li>
+          
+         <li class="nav-item  mt-2">
+          <a class="btn btn-outline-warning" type="submit" style= "border-radius:2px; color:rgb(255, 255, 255);" routerLink="login" *ngIf="auth">Sign out</a>
+          </li> 
+
+          <li class="nav-item mt-1">
+            <a class="nav-link" routerLink="login" *ngIf="!auth">Login</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br><br><br>

@@ -1,0 +1,35 @@
+img {
+  height: 450px;
+}
+.h{
+  height: 95px;
+}
+.height1{
+  height: 600px;
+}
+.stylebinding1 {
+  color: red;
+  background-color: beige;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.blue{
+  color:blue;
+}
+.shadow{
+  text-shadow: 2px 2px 2px rgb(255, 230, 0);
+}
+.size{
+  font-size: 24px;
+}
